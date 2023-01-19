@@ -1,6 +1,6 @@
 function potencia(numero, expoente){
     if (numero === 0){
-        return "não definido";
+        return "Indefinido";
     }
     if (expoente === 0){
         return 1;
@@ -12,7 +12,7 @@ function potencia(numero, expoente){
     }
 
     if (expoente < 0){
-        return 1/resultado;
+        return 0.1/resultado;
     } else {
         return resultado;
     }
